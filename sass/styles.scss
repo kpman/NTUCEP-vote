@@ -1,0 +1,33 @@
+@import 'compass';
+@import 'variable';
+
+
+html,body {
+    background: $bg-light-gray;
+    font-family: "黑體-繁", "Heiti TC", "蘋果儷中黑", "Apple LiGothic Medium","微軟正黑體", "Microsoft JhengHei";
+}
+h1 {
+    text-align: center;    
+}
+.cover {
+    text-align: center;
+    img {
+        width: 100%;
+    }
+}
+.vote {
+    margin: 30px 0;
+    padding: 100px 0;
+    border: 4px solid $blue;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Petit Formal Script";
+    @include transition(all .2s ease-in);
+    &:hover {
+        background: $blue;
+        color: #fff;
+    }
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html, body {
+  background: #fefefe;
+  font-family: "黑體-繁", "Heiti TC", "蘋果儷中黑", "Apple LiGothic Medium","微軟正黑體", "Microsoft JhengHei"; }
+
+h1 {
+  text-align: center; }
+
+.cover {
+  text-align: center; }
+  .cover img {
+    width: 100%; }
+
+.vote {
+  margin: 30px 0;
+  padding: 100px 0;
+  border: 4px solid #42b3e2;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Petit Formal Script";
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  .vote:hover {
+    background: #42b3e2;
+    color: #fff; }
