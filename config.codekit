@@ -77,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cover\/yang.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240752,
+		"inputAbbreviatedPath": "\/images\/cover\/yang.jpg",
+		"outputAbbreviatedPath": "\/images\/cover\/yang.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/glyphicons-halflings-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
